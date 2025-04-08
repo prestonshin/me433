@@ -41,7 +41,7 @@ void do_stuff(uint gpio, uint32_t events) {
     presses++;
     gpio_put(LED_PIN, on);
     on = !on;
-    // printf("presses: %d", presses);
+    printf("presses: %d\r\n", presses);
 }
 
 int main() {
@@ -50,13 +50,14 @@ int main() {
     
 
     gpio_init(BUTTON_PIN);
-    gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_IN);
-    
+    gpio_set_dir(BUTTON_PIN, GPIO_IN);
+    // gpio_pull_up(BUTTON_PIN);
+
     gpio_set_irq_enabled_with_callback(BUTTON_PIN, GPIO_IRQ_EDGE_FALL, true, &do_stuff);
     gpio_put(PICO_DEFAULT_LED_PIN, true);
     while (true) ;
     //  {
-    //     pico_set_led(true);
+        // pico_set_led(true);
     //     sleep_ms(LED_DELAY_MS);
     //     pico_set_led(false);
     //     sleep_ms(LED_DELAY_MS);
