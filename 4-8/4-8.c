@@ -6,11 +6,16 @@
 // We are going to use SPI 0, and allocate it to the following GPIO pins
 // Pins can be changed, see the GPIO function select table in the datasheet for information on GPIO assignments
 #define SPI_PORT spi0
-#define PIN_MISO 16
-#define PIN_CS   17
-#define PIN_SCK  18
-#define PIN_MOSI 19
+#define LED_PIN 14
 
+
+// Initialize the GPIO for the LED
+void pico_led_init(void) {
+    #ifdef LED_PIN
+        gpio_init(LED_PIN);
+        gpio_set_dir(LED_PIN, GPIO_OUT);
+    #endif
+    }
 
 
 int main()
