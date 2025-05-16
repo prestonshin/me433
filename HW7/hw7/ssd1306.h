@@ -1,6 +1,10 @@
 #ifndef SSD1306_H__
 #define SSD1306_H__
 
+// I2C defines
+#define I2C_PORT i2c0
+#define I2C_SDA 8
+#define I2C_SCL 9
 // Based on the adafruit and sparkfun libraries
 #define SSD1306_MEMORYMODE          0x20 
 #define SSD1306_COLUMNADDR          0x21 

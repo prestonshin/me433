@@ -35,14 +35,14 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(hw7 hw7.c )
+add_executable(hw7 hw7.c ssd1306.c)
 
 pico_set_program_name(hw7 "hw7")
 pico_set_program_version(hw7 "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(hw7 0)
-pico_enable_stdio_usb(hw7 0)
+pico_enable_stdio_usb(hw7 1)
 
 # Add the standard library to the build
 target_link_libraries(hw7
@@ -56,6 +56,7 @@ target_include_directories(hw7 PRIVATE
 # Add any user requested libraries
 target_link_libraries(hw7 
         hardware_i2c
+        hardware_adc
         )
 
 pico_add_extra_outputs(hw7)
