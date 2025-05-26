@@ -32,7 +32,7 @@ project(hw7 C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
-
+ 
 # Add executable. Default name is the project name, version 0.1
 
 add_executable(hw7 hw7.c ssd1306.c)
