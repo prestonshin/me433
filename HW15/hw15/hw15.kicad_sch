@@ -2200,7 +2200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 171.196 89.154 90)
 			(effects
 				(font
@@ -2270,7 +2270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -2633,7 +2633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.2"
 			(at 107.6452 95.25 0)
 			(effects
 				(font
@@ -2768,7 +2768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 139.7 76.2 0)
 			(effects
 				(font
@@ -2836,7 +2836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -2907,7 +2907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_3220_8050Metric_Pad2.65x5.15mm_HandSolder"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -3113,7 +3113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 145.796 118.364 90)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 183.896 101.854 90)
 			(effects
 				(font
@@ -3387,7 +3387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.2"
 			(at 120.3452 95.25 0)
 			(effects
 				(font
@@ -3524,7 +3524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 145.796 108.204 90)
 			(effects
 				(font
