@@ -200,9 +200,9 @@ int main() {
 
     while (1) {
         colors[0] = HSBtoRGB(counter%361, 1, 0.5);
-        colors[1] = HSBtoRGB((counter + 90)%361, 1, 0.5);
-        colors[2] = HSBtoRGB((counter + 180)%361, 1, 0.5);
-        colors[3] = HSBtoRGB((counter + 270)%361, 1, 0.5);
+        colors[1] = HSBtoRGB((counter + 90)%361, 1, 0.25);
+        colors[2] = HSBtoRGB((counter + 180)%361, 1, 0.25);
+        colors[3] = HSBtoRGB((counter + 270)%361, 1, 0.25);
 
         int i;
         for(i=0;i<NUM_PIXELS;i++){
